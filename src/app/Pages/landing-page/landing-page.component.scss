@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.dancingtext{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+}
+.dancingtextmatch{
+    font-family:  serif;
+}
+//top bar
+mdb-carousel{
+   
+    height: 70vh;
+}
+mdb-carousel-item{
+    height: 70vh;
+    overflow-y: hidden;
+}
+
+mdb-form-control{
+    background-color: #fff;
+}
+.toptext{
+    margin-top: 26px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+//carosel
+.imagebox{
+    height: 11rem;
+    overflow-y: hidden;
+    
+}
+@media (min-width: 769px) and (max-width: 1024px)  {
+    mdb-carousel{
+        height: 40vh;  
+    }
+    mdb-carousel-item{
+        height: 40vh;
+        overflow-y: hidden;
+    }  
+  
+}
+@media (min-width: 601px) and (max-width: 768px) {
+    mdb-carousel{
+        height: 38vh; 
+    }
+    mdb-carousel-item{
+        height: 38vh;
+        overflow-y: hidden;
+    }  
+   
+    
+    
+}
+@media (min-width: 320px) and (max-width: 600px){
+    mdb-carousel{
+        height: 38vh;  
+    }
+    mdb-carousel-item{
+        height: 38vh;
+        overflow-y: hidden;
+    }  
+   
+    .toptext{
+        margin-top: 0px;
+        margin-bottom: 12px;
+        text-align: left;
+    }
+}
+
+@media(max-width:320px) {
+    mdb-carousel{
+        height: 40vh;  
+    }
+    mdb-carousel-item{
+        height: 40vh;
+        overflow-y: hidden;
+    }  
+  
+}
